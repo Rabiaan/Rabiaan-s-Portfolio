@@ -6,23 +6,37 @@ export default function Home() {
     <div className="min-h-screen bg-white">
       {/* Hero Section */}
       <section className="relative h-screen flex flex-col items-center justify-center pt-20 overflow-hidden">
-        {/* Background Text Layer with Clip Background Effect */}
+        {/* Portrait Image */}
+        <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
+          <div className="relative w-full max-w-md">
+            <img 
+              src="/images/rabiaan.jpeg" 
+              alt="Syed Rabiaan Zafar" 
+              className="w-full grayscale opacity-30"
+              referrerPolicy="no-referrer"
+            />
+          </div>
+        </div>
+
+        {/* Background Text Layer - Overlapping Image */}
         <div className="absolute inset-0 flex flex-col items-center justify-center pointer-events-none select-none">
           {/* Solid black base - shows where not overlapping image */}
           <h1 className="text-[15vw] font-display font-black text-brand-black leading-none uppercase tracking-tighter">
             PORTFOLIO
           </h1>
-          {/* Transparent clipped text - shows image in middle band */}
+          {/* Image clipped text overlaying the image area - transparent with white border */}
           <h1 
             className="text-[15vw] font-display font-black leading-none uppercase tracking-tighter absolute top-0 left-0 w-full h-full flex items-center justify-center text-transparent"
             style={{ 
               WebkitTextFillColor: 'transparent',
               backgroundImage: 'url(/images/rabiaan.jpeg)',
-              backgroundPosition: 'center 30%',
+              backgroundPosition: 'center 35%',
               backgroundSize: 'cover',
-              clipPath: 'polygon(30% 0%, 70% 0%, 70% 100%, 30% 100%)',
+              clipPath: 'polygon(20% 0%, 80% 0%, 80% 100%, 20% 100%)',
               WebkitBackgroundClip: 'text',
-              backgroundClip: 'text'
+              backgroundClip: 'text',
+              WebkitTextStroke: '3px white',
+              color: 'transparent'
             }}
           >
             PORTFOLIO
