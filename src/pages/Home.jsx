@@ -11,7 +11,7 @@ export default function Home() {
           <img 
             src="/images/rabiaan.jpeg" 
             alt="Syed Rabiaan Zafar" 
-            className="w-full max-w-md rounded-[3rem]"
+            className="w-full max-w-md rounded-[5rem]"
             referrerPolicy="no-referrer"
           />
         </div>
@@ -28,7 +28,7 @@ export default function Home() {
             PORTFOLIO
           </h1>
           {/* Handwritten "My" */}
-          <span className="absolute -top-16 -left-16 md:-top-24 md:-left-24 text-6xl md:text-[10rem] font-brush text-brand-black opacity-80">
+          <span className="absolute top-8 left-1/2 -translate-x-1/2 text-6xl md:text-[8rem] font-brush text-brand-black opacity-80">
             My
           </span>
         </div>
