@@ -87,13 +87,19 @@ export default function Contact() {
             viewport={{ once: true }}
             className="bg-gray-50 p-12 rounded-[3rem] shadow-sm"
           >
-            <form className="space-y-8">
+            <form 
+              action="https://formspree.io/f/syedrabiaan@gmail.com" 
+              method="POST"
+              className="space-y-8"
+            >
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                 <div className="space-y-2">
                   <label className="text-[10px] font-bold uppercase tracking-widest text-gray-400 ml-2">Full Name</label>
                   <input 
                     type="text" 
+                    name="name"
                     placeholder="John Doe"
+                    required
                     className="w-full bg-white border border-gray-100 rounded-2xl px-6 py-4 text-sm focus:outline-none focus:border-brand-blue transition-colors"
                   />
                 </div>
@@ -101,7 +107,9 @@ export default function Contact() {
                   <label className="text-[10px] font-bold uppercase tracking-widest text-gray-400 ml-2">Email Address</label>
                   <input 
                     type="email" 
+                    name="email"
                     placeholder="john@example.com"
+                    required
                     className="w-full bg-white border border-gray-100 rounded-2xl px-6 py-4 text-sm focus:outline-none focus:border-brand-blue transition-colors"
                   />
                 </div>
@@ -110,6 +118,7 @@ export default function Contact() {
                 <label className="text-[10px] font-bold uppercase tracking-widest text-gray-400 ml-2">Subject</label>
                 <input 
                   type="text" 
+                  name="subject"
                   placeholder="Project Inquiry"
                   className="w-full bg-white border border-gray-100 rounded-2xl px-6 py-4 text-sm focus:outline-none focus:border-brand-blue transition-colors"
                 />
@@ -117,12 +126,14 @@ export default function Contact() {
               <div className="space-y-2">
                 <label className="text-[10px] font-bold uppercase tracking-widest text-gray-400 ml-2">Message</label>
                 <textarea 
+                  name="message"
                   rows={6}
                   placeholder="Tell me about your project..."
+                  required
                   className="w-full bg-white border border-gray-100 rounded-2xl px-6 py-4 text-sm focus:outline-none focus:border-brand-blue transition-colors resize-none"
                 />
               </div>
-              <button className="w-full bg-brand-blue text-white font-display font-bold uppercase tracking-widest py-5 rounded-2xl shadow-lg hover:bg-brand-black transition-all duration-500 flex items-center justify-center gap-3 group">
+              <button type="submit" className="w-full bg-brand-blue text-white font-display font-bold uppercase tracking-widest py-5 rounded-2xl shadow-lg hover:bg-brand-black transition-all duration-500 flex items-center justify-center gap-3 group">
                 Send Message
                 <Send className="w-4 h-4 group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform" />
               </button>
