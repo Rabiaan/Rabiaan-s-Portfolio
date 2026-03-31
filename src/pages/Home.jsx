@@ -6,8 +6,15 @@ export default function Home() {
     <div className="min-h-screen bg-white">
       {/* Hero Section */}
       <section className="relative h-screen flex flex-col items-center justify-center pt-20 overflow-hidden">
-        {/* Main Portrait - below text */}
-        <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
+        {/* PORTFOLIO Text - behind image, solid black */}
+        <div className="absolute inset-0 flex flex-col items-center justify-center pointer-events-none select-none z-0">
+          <h1 className="text-[15vw] font-display font-black text-brand-black leading-none uppercase tracking-tighter">
+            PORTFOLIO
+          </h1>
+        </div>
+
+        {/* Main Portrait - above text */}
+        <div className="absolute inset-0 flex items-center justify-center pointer-events-none z-10">
           <img 
             src="/images/rabiaan.jpeg" 
             alt="Syed Rabiaan Zafar" 
@@ -16,8 +23,8 @@ export default function Home() {
           />
         </div>
 
-        {/* PORTFOLIO Text - above image */}
-        <div className="absolute inset-0 flex flex-col items-center justify-center pointer-events-none select-none z-50">
+        {/* PORTFOLIO Text outline - above image */}
+        <div className="absolute inset-0 flex flex-col items-center justify-center pointer-events-none select-none z-20">
           <h1 
             className="text-[15vw] font-display font-black leading-none uppercase tracking-tighter"
             style={{ 
@@ -27,10 +34,6 @@ export default function Home() {
           >
             PORTFOLIO
           </h1>
-          {/* Handwritten "My" */}
-          <span className="absolute top-8 left-1/2 -translate-x-1/2 text-6xl md:text-[8rem] font-brush text-brand-black">
-            My
-          </span>
         </div>
       </section>
 
