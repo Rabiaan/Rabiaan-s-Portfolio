@@ -11,7 +11,7 @@ export default function Home() {
           <img 
             src="/images/rabiaan.jpeg" 
             alt="Syed Rabiaan Zafar" 
-            className="w-full max-w-md"
+            className="w-full max-w-md rounded-[3rem]"
             referrerPolicy="no-referrer"
           />
         </div>
