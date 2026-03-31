@@ -6,29 +6,11 @@ export default function Home() {
     <div className="min-h-screen bg-white">
       {/* Hero Section */}
       <section className="relative h-screen flex flex-col items-center justify-center pt-20 overflow-hidden">
-        {/* Background Text Layer - Overlapping Image */}
+        {/* Background Text Layer - Simple transparent text with black border */}
         <div className="absolute inset-0 flex flex-col items-center justify-center pointer-events-none select-none">
-          {/* White fill with black border - overlapping image */}
           <h1 
             className="text-[15vw] font-display font-black leading-none uppercase tracking-tighter"
             style={{ 
-              WebkitTextStroke: '2px black',
-              color: 'white'
-            }}
-          >
-            PORTFOLIO
-          </h1>
-          {/* Image clipped text overlay */}
-          <h1 
-            className="text-[15vw] font-display font-black leading-none uppercase tracking-tighter absolute top-0 left-0 w-full h-full flex items-center justify-center text-transparent"
-            style={{ 
-              WebkitTextFillColor: 'transparent',
-              backgroundImage: 'url(/images/rabiaan.jpeg)',
-              backgroundPosition: 'center 35%',
-              backgroundSize: 'cover',
-              clipPath: 'polygon(20% 0%, 80% 0%, 80% 100%, 20% 100%)',
-              WebkitBackgroundClip: 'text',
-              backgroundClip: 'text',
               WebkitTextStroke: '2px black',
               color: 'transparent'
             }}
