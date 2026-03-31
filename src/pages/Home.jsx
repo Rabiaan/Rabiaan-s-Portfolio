@@ -28,7 +28,7 @@ export default function Home() {
             PORTFOLIO
           </h1>
           {/* Handwritten "My" */}
-          <span className="absolute top-8 left-1/2 -translate-x-1/2 text-6xl md:text-[8rem] font-brush text-brand-black opacity-80">
+          <span className="absolute top-8 left-1/2 -translate-x-1/2 text-6xl md:text-[8rem] font-brush text-brand-black">
             My
           </span>
         </div>
