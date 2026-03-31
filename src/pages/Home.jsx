@@ -8,8 +8,14 @@ export default function Home() {
       <section className="relative h-screen flex flex-col items-center justify-center pt-20 overflow-hidden">
         {/* Background Text Layer - Overlapping Image */}
         <div className="absolute inset-0 flex flex-col items-center justify-center pointer-events-none select-none">
-          {/* Solid black base - shows where not overlapping image */}
-          <h1 className="text-[15vw] font-display font-black text-brand-black leading-none uppercase tracking-tighter">
+          {/* Solid black base with white border */}
+          <h1 
+            className="text-[15vw] font-display font-black leading-none uppercase tracking-tighter"
+            style={{ 
+              WebkitTextStroke: '2px white',
+              color: '#1a1a1a'
+            }}
+          >
             PORTFOLIO
           </h1>
           {/* Image clipped text overlaying the image area - transparent with white border */}
