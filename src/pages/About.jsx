@@ -88,12 +88,13 @@ export default function About() {
               className="bg-gray-50 p-8 rounded-[2.5rem] hover:bg-brand-blue hover:text-white transition-all duration-500 group"
             >
               <Globe className="w-10 h-10 text-brand-blue mb-4 group-hover:text-white" />
-              <h4 className="text-xl font-display font-black mb-4 uppercase tracking-tighter">Web</h4>
+              <h4 className="text-xl font-display font-black mb-4 uppercase tracking-tighter">Frontend</h4>
               <ul className="text-sm text-gray-500 group-hover:text-white/80 space-y-2">
-                <li>WordPress (Elementor)</li>
-                <li>HTML5, CSS3 (Custom)</li>
-                <li>JavaScript, React</li>
-                <li>Bootstrap, Tailwind</li>
+                <li>WordPress</li>
+                <li>React</li>
+                <li>HTML5, CSS3</li>
+                <li>JavaScript (ES6+)</li>
+                <li>Tailwind</li>
               </ul>
             </motion.div>
 
@@ -104,13 +105,13 @@ export default function About() {
               transition={{ delay: 0.1 }}
               className="bg-gray-50 p-8 rounded-[2.5rem] hover:bg-brand-blue hover:text-white transition-all duration-500 group"
             >
-              <Smartphone className="w-10 h-10 text-brand-blue mb-4 group-hover:text-white" />
-              <h4 className="text-xl font-display font-black mb-4 uppercase tracking-tighter">Mobile</h4>
+              <Code className="w-10 h-10 text-brand-blue mb-4 group-hover:text-white" />
+              <h4 className="text-xl font-display font-black mb-4 uppercase tracking-tighter">Backend</h4>
               <ul className="text-sm text-gray-500 group-hover:text-white/80 space-y-2">
-                <li>Flutter, Dart</li>
-                <li>GetX State Management</li>
-                <li>Firebase Integration</li>
-                <li>Mobile App Development</li>
+                <li>Node.js, Express</li>
+                <li>Python (Django/Flask)</li>
+                <li>REST/GraphQL APIs</li>
+                <li>Git</li>
               </ul>
             </motion.div>
 
@@ -122,12 +123,12 @@ export default function About() {
               className="bg-gray-50 p-8 rounded-[2.5rem] hover:bg-brand-blue hover:text-white transition-all duration-500 group"
             >
               <Database className="w-10 h-10 text-brand-blue mb-4 group-hover:text-white" />
-              <h4 className="text-xl font-display font-black mb-4 uppercase tracking-tighter">Backend & Data</h4>
+              <h4 className="text-xl font-display font-black mb-4 uppercase tracking-tighter">Database</h4>
               <ul className="text-sm text-gray-500 group-hover:text-white/80 space-y-2">
-                <li>Firebase, MySQL</li>
-                <li>Supabase, Python</li>
-                <li>MongoDB, SQL</li>
-                <li>API Development</li>
+                <li>MongoDB</li>
+                <li>PostgreSQL</li>
+                <li>MySQL</li>
+                <li>Firebase, Supabase</li>
               </ul>
             </motion.div>
 
@@ -138,13 +139,13 @@ export default function About() {
               transition={{ delay: 0.3 }}
               className="bg-gray-50 p-8 rounded-[2.5rem] hover:bg-brand-blue hover:text-white transition-all duration-500 group"
             >
-              <Code className="w-10 h-10 text-brand-blue mb-4 group-hover:text-white" />
-              <h4 className="text-xl font-display font-black mb-4 uppercase tracking-tighter">Core Engineering</h4>
+              <Globe className="w-10 h-10 text-brand-blue mb-4 group-hover:text-white" />
+              <h4 className="text-xl font-display font-black mb-4 uppercase tracking-tighter">DevOps & Cloud</h4>
               <ul className="text-sm text-gray-500 group-hover:text-white/80 space-y-2">
-                <li>Data Structures & Algorithms</li>
+                <li>AWS</li>
+                <li>CI/CD Pipelines</li>
+                <li>Agile Methodologies</li>
                 <li>Software Testing</li>
-                <li>Cloud Concepts (Azure)</li>
-                <li>Problem Solving</li>
               </ul>
             </motion.div>
           </div>

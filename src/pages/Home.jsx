@@ -176,12 +176,20 @@ export default function Home() {
               </h4>
               <div className="grid grid-cols-1 gap-4">
                 {[
-                  { name: "WordPress (Elementor)", icon: <Globe className="w-4 h-4" />, color: "bg-blue-600" },
+                  { name: "WordPress", icon: <Globe className="w-4 h-4" />, color: "bg-blue-600" },
+                  { name: "React", icon: <Code className="w-4 h-4" />, color: "bg-cyan-500" },
                   { name: "HTML5, CSS3", icon: <Code className="w-4 h-4" />, color: "bg-orange-500" },
-                  { name: "JavaScript, React", icon: <Code className="w-4 h-4" />, color: "bg-yellow-500" },
-                  { name: "Flutter, Dart", icon: <Smartphone className="w-4 h-4" />, color: "bg-cyan-500" },
-                  { name: "Firebase, Python", icon: <Database className="w-4 h-4" />, color: "bg-green-600" },
-                  { name: "MySQL, MongoDB", icon: <Database className="w-4 h-4" />, color: "bg-purple-600" },
+                  { name: "JavaScript (ES6+)", icon: <Code className="w-4 h-4" />, color: "bg-yellow-500" },
+                  { name: "Node.js, Express", icon: <Database className="w-4 h-4" />, color: "bg-green-600" },
+                  { name: "Python (Django/Flask)", icon: <Code className="w-4 h-4" />, color: "bg-blue-500" },
+                  { name: "MongoDB", icon: <Database className="w-4 h-4" />, color: "bg-green-500" },
+                  { name: "PostgreSQL, MySQL", icon: <Database className="w-4 h-4" />, color: "bg-purple-600" },
+                  { name: "Firebase, Supabase", icon: <Database className="w-4 h-4" />, color: "bg-amber-500" },
+                  { name: "AWS", icon: <Globe className="w-4 h-4" />, color: "bg-orange-600" },
+                  { name: "CI/CD Pipelines", icon: <Code className="w-4 h-4" />, color: "bg-red-500" },
+                  { name: "Git", icon: <Code className="w-4 h-4" />, color: "bg-gray-600" },
+                  { name: "REST/GraphQL APIs", icon: <Globe className="w-4 h-4" />, color: "bg-pink-500" },
+                  { name: "Tailwind", icon: <Code className="w-4 h-4" />, color: "bg-teal-500" },
                 ].map((skill) => (
                   <div key={skill.name} className="flex items-center gap-3 group">
                     <div className={`${skill.color} text-white text-[10px] font-bold w-6 h-6 flex items-center justify-center rounded shadow-sm group-hover:scale-110 transition-transform`}>
