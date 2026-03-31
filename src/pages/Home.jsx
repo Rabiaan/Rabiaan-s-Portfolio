@@ -6,18 +6,6 @@ export default function Home() {
     <div className="min-h-screen bg-white">
       {/* Hero Section */}
       <section className="relative h-screen flex flex-col items-center justify-center pt-20 overflow-hidden">
-        {/* Portrait Image */}
-        <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
-          <div className="relative w-full max-w-md">
-            <img 
-              src="/images/rabiaan.jpeg" 
-              alt="Syed Rabiaan Zafar" 
-              className="w-full grayscale opacity-30"
-              referrerPolicy="no-referrer"
-            />
-          </div>
-        </div>
-
         {/* Background Text Layer - Overlapping Image */}
         <div className="absolute inset-0 flex flex-col items-center justify-center pointer-events-none select-none">
           {/* Solid black base - shows where not overlapping image */}
