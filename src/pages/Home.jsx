@@ -6,8 +6,18 @@ export default function Home() {
     <div className="min-h-screen bg-white">
       {/* Hero Section */}
       <section className="relative h-screen flex flex-col items-center justify-center pt-20 overflow-hidden">
-        {/* Background Text Layer - Transparent with black border */}
-        <div className="absolute inset-0 flex flex-col items-center justify-center pointer-events-none select-none z-10">
+        {/* Main Portrait - below text */}
+        <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
+          <img 
+            src="/images/rabiaan.jpeg" 
+            alt="Syed Rabiaan Zafar" 
+            className="w-full max-w-md"
+            referrerPolicy="no-referrer"
+          />
+        </div>
+
+        {/* PORTFOLIO Text - above image */}
+        <div className="absolute inset-0 flex flex-col items-center justify-center pointer-events-none select-none z-50">
           <h1 
             className="text-[15vw] font-display font-black leading-none uppercase tracking-tighter"
             style={{ 
@@ -17,28 +27,10 @@ export default function Home() {
           >
             PORTFOLIO
           </h1>
-        </div>
-
-        {/* Main Portrait */}
-        <div className="relative z-20 w-full max-w-4xl px-4 flex justify-center">
-          <div className="relative">
-            <motion.div
-              initial={{ opacity: 0, scale: 0.9 }}
-              animate={{ opacity: 1, scale: 1 }}
-              transition={{ duration: 1.2 }}
-              className="relative z-10"
-            >
-              <div className="relative">
-                <img 
-                  src="/images/rabiaan.jpeg" 
-                  alt="Syed Rabiaan Zafar" 
-                  className="w-full max-w-md grayscale hover:grayscale-0 transition-all duration-700 rounded-[5rem] md:rounded-[10rem] shadow-2xl"
-                  referrerPolicy="no-referrer"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-white via-transparent to-transparent opacity-80 rounded-b-[5rem] md:rounded-b-[10rem]"></div>
-              </div>
-            </motion.div>
-          </div>
+          {/* Handwritten "My" */}
+          <span className="absolute -top-16 -left-16 md:-top-24 md:-left-24 text-6xl md:text-[10rem] font-brush text-brand-black opacity-80">
+            My
+          </span>
         </div>
       </section>
 

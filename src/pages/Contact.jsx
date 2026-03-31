@@ -1,4 +1,4 @@
-timport { motion } from "motion/react";
+import { motion } from "motion/react";
 import { Mail, MapPin, Phone, Send, Instagram, Linkedin, Twitter } from "lucide-react";
 
 export default function Contact() {
