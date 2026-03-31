@@ -6,8 +6,8 @@ export default function Home() {
     <div className="min-h-screen bg-white">
       {/* Hero Section */}
       <section className="relative h-screen flex flex-col items-center justify-center pt-20 overflow-hidden">
-        {/* Background Text Layer - Simple transparent text with black border */}
-        <div className="absolute inset-0 flex flex-col items-center justify-center pointer-events-none select-none">
+        {/* Background Text Layer - Transparent with black border */}
+        <div className="absolute inset-0 flex flex-col items-center justify-center pointer-events-none select-none z-10">
           <h1 
             className="text-[15vw] font-display font-black leading-none uppercase tracking-tighter"
             style={{ 
@@ -19,8 +19,8 @@ export default function Home() {
           </h1>
         </div>
 
-        {/* Portrait Image */}
-        <div className="relative z-10 w-full max-w-4xl px-4 flex justify-center">
+        {/* Main Portrait */}
+        <div className="relative z-20 w-full max-w-4xl px-4 flex justify-center">
           <div className="relative">
             <motion.div
               initial={{ opacity: 0, scale: 0.9 }}
@@ -38,24 +38,6 @@ export default function Home() {
                 <div className="absolute inset-0 bg-gradient-to-t from-white via-transparent to-transparent opacity-80 rounded-b-[5rem] md:rounded-b-[10rem]"></div>
               </div>
             </motion.div>
-            
-            {/* Handwritten "My" */}
-            <motion.span 
-              initial={{ rotate: -15, opacity: 0, x: -20 }}
-              animate={{ rotate: -15, opacity: 1, x: 0 }}
-              transition={{ duration: 0.8, delay: 1 }}
-              className="absolute -top-20 -left-20 text-7xl md:text-[12rem] font-brush text-brand-black z-20 opacity-90"
-            >
-              My
-            </motion.span>
-
-            {/* Name Label */}
-            <div className="absolute top-1/2 -right-20 md:-right-32 text-right z-20">
-              <p className="text-sm md:text-base font-display font-medium text-brand-black">
-                Syed <span className="text-brand-blue">Rabiaan</span>
-              </p>
-              <p className="text-xs md:text-sm font-display text-gray-500">Zafar</p>
-            </div>
           </div>
         </div>
       </section>
