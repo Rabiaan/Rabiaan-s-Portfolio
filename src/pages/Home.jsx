@@ -432,17 +432,18 @@ export default function Home() {
               <div>
                 <p className="text-[10px] text-gray-400 uppercase tracking-widest mb-2">Color Palette</p>
                 <div className="flex gap-2">
-                  <div className="w-6 h-6 rounded-lg bg-blue-600" title="#2563eb"></div>
-                  <div className="w-6 h-6 rounded-lg bg-green-600" title="#16a34a"></div>
-                  <div className="w-6 h-6 rounded-lg bg-gray-900" title="#1a1a1a"></div>
+                  <div className="w-6 h-6 rounded-lg bg-[#44362a]" title="#44362a"></div>
+                  <div className="w-6 h-6 rounded-lg bg-[#d1b7a0]" title="#d1b7a0"></div>
+                  <div className="w-6 h-6 rounded-lg bg-[#e4e1dc]" title="#e4e1dc"></div>
+                  <div className="w-6 h-6 rounded-lg bg-[#0a0a0a]" title="#0a0a0a"></div>
                 </div>
               </div>
               {/* Typography */}
               <div>
                 <p className="text-[10px] text-gray-400 uppercase tracking-widest mb-2">Typography</p>
                 <div className="bg-gray-50 p-3 rounded-xl">
-                  <p className="text-brand-black font-bold">Poppins</p>
-                  <p className="text-gray-400 text-xs">Primary Font</p>
+                  <p className="text-brand-black font-bold">DM Sans + Cinzel</p>
+                  <p className="text-gray-400 text-xs">Primary Fonts</p>
                 </div>
               </div>
               <a href="https://samartex.store/" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 text-brand-blue hover:text-brand-black transition-colors text-sm font-bold">
