@@ -11,7 +11,7 @@ export default function Projects() {
     {
       id: 1,
       title: "Fitness Pro",
-      category: "Fullstack",
+      category: "TypeScript",
       image: "/images/fitness-pro.png",
       desc: "Full Stack Fitness Management App with workout tracking, user authentication, and progress monitoring.",
       link: "https://fitness-pro-production.up.railway.app/",
