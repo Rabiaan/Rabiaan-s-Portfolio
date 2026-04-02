@@ -20,7 +20,7 @@ export default function Projects() {
     {
       id: 5,
       title: "FrameGen",
-      category: "Fullstack",
+      category: "React",
       image: "/images/frame-gen.png",
       desc: "React Business Portfolio for marketing agency providing web development, marketing, animation, and graphics services.",
       link: "https://frame-gen.vercel.app/",
