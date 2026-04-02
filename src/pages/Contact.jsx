@@ -1,5 +1,5 @@
 import { motion } from "motion/react";
-import { Mail, MapPin, Phone, Send, Instagram, Linkedin, Twitter } from "lucide-react";
+import { Mail, MapPin, Phone, Send, Linkedin, Github } from "lucide-react";
 
 export default function Contact() {
   return (
@@ -67,14 +67,11 @@ export default function Contact() {
             <div className="pt-8 border-t border-gray-100">
               <h4 className="font-display font-bold text-brand-black uppercase text-sm tracking-widest mb-6">Follow Me</h4>
               <div className="flex gap-6">
-                <a href="#" className="bg-gray-50 p-4 rounded-2xl text-brand-black hover:bg-brand-blue hover:text-white transition-all duration-500">
-                  <Instagram className="w-6 h-6" />
-                </a>
-                <a href="#" className="bg-gray-50 p-4 rounded-2xl text-brand-black hover:bg-brand-blue hover:text-white transition-all duration-500">
+                <a href="https://www.linkedin.com/in/syed-rabiaan-zafar-818050247/" target="_blank" rel="noopener noreferrer" className="bg-gray-50 p-4 rounded-2xl text-brand-black hover:bg-brand-blue hover:text-white transition-all duration-500">
                   <Linkedin className="w-6 h-6" />
                 </a>
-                <a href="#" className="bg-gray-50 p-4 rounded-2xl text-brand-black hover:bg-brand-blue hover:text-white transition-all duration-500">
-                  <Twitter className="w-6 h-6" />
+                <a href="https://github.com/Rabiaan" target="_blank" rel="noopener noreferrer" className="bg-gray-50 p-4 rounded-2xl text-brand-black hover:bg-brand-blue hover:text-white transition-all duration-500">
+                  <Github className="w-6 h-6" />
                 </a>
               </div>
             </div>
@@ -88,7 +85,7 @@ export default function Contact() {
             className="bg-gray-50 p-12 rounded-[3rem] shadow-sm"
           >
             <form 
-              action="https://formspree.io/f/syedrabiaan@gmail.com" 
+              action="https://formspree.io/f/maqldnel" 
               method="POST"
               className="space-y-8"
             >
