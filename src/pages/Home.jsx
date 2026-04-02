@@ -390,8 +390,8 @@ export default function Home() {
               <div>
                 <p className="text-[10px] text-gray-400 uppercase tracking-widest mb-2">Color Palette</p>
                 <div className="flex gap-2">
-                  <div className="w-6 h-6 rounded-lg bg-purple-600" title="#9333ea"></div>
-                  <div className="w-6 h-6 rounded-lg bg-pink-500" title="#ec4899"></div>
+                  <div className="w-6 h-6 rounded-lg bg-purple-600" title="#7b61ff"></div>
+                  <div className="w-6 h-6 rounded-lg bg-pink-500" title="#4a9eff"></div>
                   <div className="w-6 h-6 rounded-lg bg-gray-900" title="#1f2937"></div>
                 </div>
               </div>
@@ -475,8 +475,8 @@ export default function Home() {
               <div>
                 <p className="text-[10px] text-gray-400 uppercase tracking-widest mb-2">Color Palette</p>
                 <div className="flex gap-2">
-                  <div className="w-6 h-6 rounded-lg bg-blue-800" title="#1e3a8a"></div>
-                  <div className="w-6 h-6 rounded-lg bg-cyan-600" title="#0891b2"></div>
+                  <div className="w-6 h-6 rounded-lg bg-blue-800" title="#0565c7"></div>
+                  <div className="w-6 h-6 rounded-lg bg-cyan-600" title="#4a9eff"></div>
                   <div className="w-6 h-6 rounded-lg bg-gray-100" title="#f3f4f6"></div>
                 </div>
               </div>
