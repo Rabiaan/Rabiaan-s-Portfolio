@@ -1,18 +1,17 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "motion/react";
 import { ExternalLink, Globe, Code, ShoppingCart } from "lucide-react";
-import './Projects.css';
 
 export default function Projects() {
   const [filter, setFilter] = useState("All");
 
-  const categories = ["All", "Full Stack", "React", "WordPress", "Web Development"];
+  const categories = ["All", "WordPress", "HTML/CSS", "React", "Fullstack", "TypeScript"];
 
   const projects = [
     {
       id: 1,
       title: "Fitness Pro",
-      category: "Full Stack",
+      category: "Fullstack",
       image: "/images/fitness-pro.png",
       desc: "Full Stack Fitness Management App with workout tracking, user authentication, and progress monitoring.",
       link: "https://fitness-pro-production.up.railway.app/",
@@ -21,7 +20,7 @@ export default function Projects() {
     {
       id: 5,
       title: "FrameGen",
-      category: "Full Stack",
+      category: "Fullstack",
       image: "/images/frame-gen.png",
       desc: "React Business Portfolio for marketing agency providing web development, marketing, animation, and graphics services.",
       link: "https://frame-gen.vercel.app/",
@@ -30,7 +29,7 @@ export default function Projects() {
     {
       id: 2,
       title: "Habibi Bites",
-      category: "Full Stack",
+      category: "Fullstack",
       image: "/images/habibi-bites.png",
       desc: "Full Stack Restaurant Management system with online ordering, table reservation, and menu management.",
       link: "https://habibi-bites.vercel.app/",
@@ -103,7 +102,7 @@ export default function Projects() {
       id: 10,
       title: "Asia Glory Co",
       category: "HTML/CSS",
-      image: "/images/asiagloryco.png",
+      image: "/images/asiaglory.png",
       desc: "Cold Storage & Warehouse Service website with service showcase and contact forms.",
       link: "https://asiagloryco.vercel.app/",
       icon: <Globe className="w-5 h-5" />
@@ -209,7 +208,7 @@ export default function Projects() {
           <motion.h1 
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
-            className="projects-heading text-7xl md:text-[12vw] font-display font-black text-brand-black leading-none uppercase tracking-tighter"
+            className="text-7xl md:text-[12vw] font-display font-black text-brand-black leading-none uppercase tracking-tighter"
           >
             PROJECTS<span className="text-brand-blue">.</span>
           </motion.h1>

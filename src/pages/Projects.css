@@ -66,15 +66,3 @@
 .project-link:hover {
   background-color: #2980b9;
 }
-
-.projects-heading {
-  color: transparent;
-  -webkit-text-stroke: 2px white;
-}
-
-@media (min-width: 768px) {
-  .projects-heading {
-    color: #2c3e50;
-    -webkit-text-stroke: 0;
-  }
-}

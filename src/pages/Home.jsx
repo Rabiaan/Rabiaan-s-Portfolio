@@ -461,7 +461,7 @@ export default function Home() {
           >
             <div className="space-y-6">
               <img 
-                src="/images/asiagloryco.png" 
+                src="/images/asiaglory.png" 
                 alt="Asia Glory Co" 
                 className="w-full h-48 object-cover rounded-[2rem] group-hover:scale-105 transition-transform duration-500"
               />
