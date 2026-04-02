@@ -319,7 +319,7 @@ export default function Home() {
 
         {/* Bento Grid Featured Projects */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          {/* Project 1 - E-Commerce Suite (Large) */}
+          {/* Project 1 - Fitness Pro (Large) */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -330,22 +330,18 @@ export default function Home() {
               {/* Main Image */}
               <div className="lg:col-span-2 relative">
                 <img 
-                  src="/images/samartex.png" 
-                  alt="E-Commerce Suite" 
+                  src="/images/fitness-pro.png" 
+                  alt="Fitness Pro" 
                   className="w-full h-64 lg:h-full object-cover rounded-[2rem] group-hover:scale-105 transition-transform duration-500"
                 />
-                <div className="absolute bottom-4 left-4 flex gap-2">
-                  <img src="/images/delicacy.png" alt="Delicacy" className="w-20 h-20 rounded-xl object-cover border-2 border-white" />
-                  <img src="/images/nutaffair.png" alt="NutAffair" className="w-20 h-20 rounded-xl object-cover border-2 border-white" />
-                </div>
               </div>
               {/* Project Info */}
               <div className="space-y-6">
                 <div>
-                  <h4 className="text-2xl font-display font-black text-white uppercase tracking-tighter">E-Commerce Suite</h4>
-                  <p className="text-brand-blue font-bold text-sm">WooCommerce Stores</p>
+                  <h4 className="text-2xl font-display font-black text-white uppercase tracking-tighter">Fitness Pro</h4>
+                  <p className="text-brand-blue font-bold text-sm">Full Stack Web App</p>
                 </div>
-                <p className="text-gray-400 text-sm">High-performance WooCommerce stores featuring custom styling and seamless checkout flows for Samartex & Delicacy Bakers.</p>
+                <p className="text-gray-400 text-sm">Full Stack Fitness Management App with workout tracking, user authentication, and progress monitoring.</p>
                 {/* Color Palette */}
                 <div>
                   <p className="text-[10px] text-gray-500 uppercase tracking-widest mb-2">Color Palette</p>
@@ -364,14 +360,14 @@ export default function Home() {
                     <p className="text-gray-400 text-xs">Primary Font</p>
                   </div>
                 </div>
-                <a href="https://samartex.store/" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 text-brand-blue hover:text-white transition-colors text-sm font-bold">
+                <a href="https://fitness-pro-production.up.railway.app/" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 text-brand-blue hover:text-white transition-colors text-sm font-bold">
                   View Project <span>→</span>
                 </a>
               </div>
             </div>
           </motion.div>
 
-          {/* Project 2 - Asia Glory */}
+          {/* Project 2 - FrameGen */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -381,15 +377,99 @@ export default function Home() {
           >
             <div className="space-y-6">
               <img 
-                src="/images/asiaglory.png" 
-                alt="Asia Glory" 
+                src="/images/frame-gen.png" 
+                alt="FrameGen" 
                 className="w-full h-48 object-cover rounded-[2rem] group-hover:scale-105 transition-transform duration-500"
               />
               <div>
-                <h4 className="text-xl font-display font-black text-brand-black uppercase tracking-tighter">Asia Glory Co.</h4>
+                <h4 className="text-xl font-display font-black text-brand-black uppercase tracking-tighter">FrameGen</h4>
+                <p className="text-brand-blue font-bold text-sm">React Portfolio</p>
+              </div>
+              <p className="text-gray-500 text-sm">React Business Portfolio for marketing agency providing web development, marketing, animation, and graphics services.</p>
+              {/* Color Palette */}
+              <div>
+                <p className="text-[10px] text-gray-400 uppercase tracking-widest mb-2">Color Palette</p>
+                <div className="flex gap-2">
+                  <div className="w-6 h-6 rounded-lg bg-purple-600" title="#9333ea"></div>
+                  <div className="w-6 h-6 rounded-lg bg-pink-500" title="#ec4899"></div>
+                  <div className="w-6 h-6 rounded-lg bg-gray-900" title="#1f2937"></div>
+                </div>
+              </div>
+              {/* Typography */}
+              <div>
+                <p className="text-[10px] text-gray-400 uppercase tracking-widest mb-2">Typography</p>
+                <div className="bg-gray-50 p-3 rounded-xl">
+                  <p className="text-brand-black font-bold">Inter</p>
+                  <p className="text-gray-400 text-xs">Primary Font</p>
+                </div>
+              </div>
+              <a href="https://frame-gen.vercel.app/" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 text-brand-blue hover:text-brand-black transition-colors text-sm font-bold">
+                View Project <span>→</span>
+              </a>
+            </div>
+          </motion.div>
+
+          {/* Project 3 - SamarTex */}
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ delay: 0.2 }}
+            className="bg-white border border-gray-100 rounded-[3rem] p-8 overflow-hidden group"
+          >
+            <div className="space-y-6">
+              <img 
+                src="/images/samartex.png" 
+                alt="SamarTex" 
+                className="w-full h-48 object-cover rounded-[2rem] group-hover:scale-105 transition-transform duration-500"
+              />
+              <div>
+                <h4 className="text-xl font-display font-black text-brand-black uppercase tracking-tighter">SamarTex</h4>
+                <p className="text-brand-blue font-bold text-sm">WooCommerce Store</p>
+              </div>
+              <p className="text-gray-500 text-sm">WooCommerce store with custom theme and seamless checkout flows.</p>
+              {/* Color Palette */}
+              <div>
+                <p className="text-[10px] text-gray-400 uppercase tracking-widest mb-2">Color Palette</p>
+                <div className="flex gap-2">
+                  <div className="w-6 h-6 rounded-lg bg-blue-600" title="#2563eb"></div>
+                  <div className="w-6 h-6 rounded-lg bg-green-600" title="#16a34a"></div>
+                  <div className="w-6 h-6 rounded-lg bg-gray-900" title="#1a1a1a"></div>
+                </div>
+              </div>
+              {/* Typography */}
+              <div>
+                <p className="text-[10px] text-gray-400 uppercase tracking-widest mb-2">Typography</p>
+                <div className="bg-gray-50 p-3 rounded-xl">
+                  <p className="text-brand-black font-bold">Poppins</p>
+                  <p className="text-gray-400 text-xs">Primary Font</p>
+                </div>
+              </div>
+              <a href="https://samartex.store/" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 text-brand-blue hover:text-brand-black transition-colors text-sm font-bold">
+                View Project <span>→</span>
+              </a>
+            </div>
+          </motion.div>
+
+          {/* Project 4 - Asia Glory Co */}
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ delay: 0.3 }}
+            className="bg-white border border-gray-100 rounded-[3rem] p-8 overflow-hidden group"
+          >
+            <div className="space-y-6">
+              <img 
+                src="/images/asiagloryco.png" 
+                alt="Asia Glory Co" 
+                className="w-full h-48 object-cover rounded-[2rem] group-hover:scale-105 transition-transform duration-500"
+              />
+              <div>
+                <h4 className="text-xl font-display font-black text-brand-black uppercase tracking-tighter">Asia Glory Co</h4>
                 <p className="text-brand-blue font-bold text-sm">Corporate Website</p>
               </div>
-              <p className="text-gray-500 text-sm">Engineered responsive corporate site with fluid layouts and custom scroll animations.</p>
+              <p className="text-gray-500 text-sm">Cold Storage & Warehouse Service website with service showcase and contact forms.</p>
               {/* Color Palette */}
               <div>
                 <p className="text-[10px] text-gray-400 uppercase tracking-widest mb-2">Color Palette</p>
@@ -407,49 +487,7 @@ export default function Home() {
                   <p className="text-gray-400 text-xs">Primary Font</p>
                 </div>
               </div>
-              <a href="https://asiagloryco.com/" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 text-brand-blue hover:text-brand-black transition-colors text-sm font-bold">
-                View Project <span>→</span>
-              </a>
-            </div>
-          </motion.div>
-
-          {/* Project 3 - Safia Sattar Sons */}
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ delay: 0.2 }}
-            className="bg-white border border-gray-100 rounded-[3rem] p-8 overflow-hidden group"
-          >
-            <div className="space-y-6">
-              <img 
-                src="/images/safiasattarsons.png" 
-                alt="Safia Sattar Sons" 
-                className="w-full h-48 object-cover rounded-[2rem] group-hover:scale-105 transition-transform duration-500"
-              />
-              <div>
-                <h4 className="text-xl font-display font-black text-brand-black uppercase tracking-tighter">Safia Sattar Sons</h4>
-                <p className="text-brand-blue font-bold text-sm">Business Website</p>
-              </div>
-              <p className="text-gray-500 text-sm">Business website for trading company with product catalog and company information.</p>
-              {/* Color Palette */}
-              <div>
-                <p className="text-[10px] text-gray-400 uppercase tracking-widest mb-2">Color Palette</p>
-                <div className="flex gap-2">
-                  <div className="w-6 h-6 rounded-lg bg-amber-600" title="#d97706"></div>
-                  <div className="w-6 h-6 rounded-lg bg-red-700" title="#b91c1c"></div>
-                  <div className="w-6 h-6 rounded-lg bg-gray-800" title="#1f2937"></div>
-                </div>
-              </div>
-              {/* Typography */}
-              <div>
-                <p className="text-[10px] text-gray-400 uppercase tracking-widest mb-2">Typography</p>
-                <div className="bg-gray-50 p-3 rounded-xl">
-                  <p className="text-brand-black font-bold">Playfair Display</p>
-                  <p className="text-gray-400 text-xs">Primary Font</p>
-                </div>
-              </div>
-              <a href="https://www.safiasattarsons.com/" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 text-brand-blue hover:text-brand-black transition-colors text-sm font-bold">
+              <a href="https://asiagloryco.vercel.app/" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 text-brand-blue hover:text-brand-black transition-colors text-sm font-bold">
                 View Project <span>→</span>
               </a>
             </div>

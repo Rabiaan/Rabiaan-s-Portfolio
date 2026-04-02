@@ -6,43 +6,196 @@ import './Projects.css';
 export default function Projects() {
   const [filter, setFilter] = useState("All");
 
-  const categories = ["All", "HTML/CSS"];
+  const categories = ["All", "Full Stack", "React", "WordPress", "Web Development"];
 
   const projects = [
     {
       id: 1,
-      title: "SQI",
-      category: "HTML/CSS",
-      image: "/images/sqi.png",
-      desc: "Portfolio website showcasing products and services.",
-      link: "https://sqi-sage.vercel.app",
+      title: "Fitness Pro",
+      category: "Full Stack",
+      image: "/images/fitness-pro.png",
+      desc: "Full Stack Fitness Management App with workout tracking, user authentication, and progress monitoring.",
+      link: "https://fitness-pro-production.up.railway.app/",
       icon: <Globe className="w-5 h-5" />
     },
     {
+      id: 5,
+      title: "FrameGen",
+      category: "Full Stack",
+      image: "/images/frame-gen.png",
+      desc: "React Business Portfolio for marketing agency providing web development, marketing, animation, and graphics services.",
+      link: "https://frame-gen.vercel.app/",
+      icon: <Code className="w-5 h-5" />
+    },
+    {
       id: 2,
-      title: "Safia Al Dhabi Trading",
-      category: "HTML/CSS",
-      image: "/images/safiaaldhabitrading.png",
-      desc: "Business website for trading establishment with service showcase.",
-      link: "https://safiaaldhabitrading.vercel.app",
+      title: "Habibi Bites",
+      category: "Full Stack",
+      image: "/images/habibi-bites.png",
+      desc: "Full Stack Restaurant Management system with online ordering, table reservation, and menu management.",
+      link: "https://habibi-bites.vercel.app/",
       icon: <Globe className="w-5 h-5" />
     },
     {
       id: 3,
+      title: "React E-commerce Platform",
+      category: "React",
+      image: "/images/ecommerce-store.png",
+      desc: "Fullstack E-commerce Store with cart, checkout, and payment integration (In Progress).",
+      link: "#",
+      icon: <Code className="w-5 h-5" />
+    },
+    {
+      id: 4,
+      title: "Code Hills",
+      category: "React",
+      image: "/images/codehills.png",
+      desc: "React Business Portfolio showcasing development services and projects.",
+      link: "https://codehills.vercel.app/",
+      icon: <Code className="w-5 h-5" />
+    },
+    {
+      id: 5,
+      title: "SamarTex",
+      category: "WordPress",
+      image: "/images/samartex.png",
+      desc: "WooCommerce store with custom theme and seamless checkout flows.",
+      link: "https://samartex.store/",
+      icon: <Globe className="w-5 h-5" />
+    },
+    {
+      id: 6,
+      title: "TheNutAffair",
+      category: "WordPress",
+      image: "/images/nutaffair.png",
+      desc: "E-commerce site for food products with online ordering system.",
+      link: "https://nutaffair.ethostechsol.com/",
+      icon: <Globe className="w-5 h-5" />
+    },
+    {
+      id: 7,
+      title: "Delicacy Bakers",
+      category: "WordPress",
+      image: "/images/delicacy.png",
+      desc: "E-commerce site for bakery products with custom styling.",
+      link: "https://delicacy.ethostechsol.com/",
+      icon: <Globe className="w-5 h-5" />
+    },
+    {
+      id: 8,
+      title: "Brand Architect",
+      category: "WordPress",
+      image: "/images/brandarc.png",
+      desc: "Brand and Digital Marketing Agency website with service showcase.",
+      link: "https://brandarchitectsconsulting.com/",
+      icon: <Globe className="w-5 h-5" />
+    },
+    {
+      id: 9,
+      title: "JawShee Candles",
+      category: "WordPress",
+      image: "/images/jawshee.png",
+      desc: "Ecommerce brand website for candles with product catalog.",
+      link: "https://jaw.devsphere.digital/",
+      icon: <Globe className="w-5 h-5" />
+    },
+    {
+      id: 10,
       title: "Asia Glory Co",
       category: "HTML/CSS",
       image: "/images/asiagloryco.png",
       desc: "Cold Storage & Warehouse Service website with service showcase and contact forms.",
-      link: "https://asiagloryco.vercel.app",
+      link: "https://asiagloryco.vercel.app/",
       icon: <Globe className="w-5 h-5" />
     },
     {
-      id: 4,
+      id: 11,
       title: "Safia Sattar Sons",
       category: "HTML/CSS",
       image: "/images/safiasattarsons.png",
       desc: "Business website for trading company with product catalog and company information.",
-      link: "https://safiasattarsons.vercel.app",
+      link: "https://safiasattarsons.vercel.app/",
+      icon: <Globe className="w-5 h-5" />
+    },
+    {
+      id: 12,
+      title: "Raad Al Arabia",
+      category: "HTML/CSS",
+      image: "/images/raadalarabia.png",
+      desc: "Product portfolio website with product catalog and company information.",
+      link: "https://raadalarabia.com/",
+      icon: <Globe className="w-5 h-5" />
+    },
+    {
+      id: 13,
+      title: "Safi Al Dhabi Trading EST",
+      category: "HTML/CSS",
+      image: "/images/safiaaldhabi.png",
+      desc: "Business website for trading establishment with service showcase.",
+      link: "https://safiaaldhabitrading.vercel.app/",
+      icon: <Globe className="w-5 h-5" />
+    },
+    {
+      id: 14,
+      title: "SQI",
+      category: "HTML/CSS",
+      image: "/images/sqi.png",
+      desc: "Portfolio website showcasing products and services.",
+      link: "https://sqi-sage.vercel.app/",
+      icon: <Globe className="w-5 h-5" />
+    },
+    {
+      id: 15,
+      title: "IRS",
+      category: "HTML/CSS",
+      image: "/images/irs.png",
+      desc: "E-commerce webstore with product listings and shopping functionality.",
+      link: "#",
+      icon: <ShoppingCart className="w-5 h-5" />
+    },
+    {
+      id: 16,
+      title: "IDTECH Pakistan",
+      category: "Web Development",
+      image: "/images/idtechpakistan.png",
+      desc: "Marketing and Web Development Agency website with service showcase and portfolio.",
+      link: "https://idtechpakistan.com/",
+      icon: <Globe className="w-5 h-5" />
+    },
+    {
+      id: 17,
+      title: "Synthesis Engineering",
+      category: "Web Development",
+      image: "/images/synthesis.png",
+      desc: "Waterproofing and Construction Company website with service showcase and project portfolio.",
+      link: "https://synthesiseng.com/",
+      icon: <Globe className="w-5 h-5" />
+    },
+    {
+      id: 18,
+      title: "Engineer's Office",
+      category: "Web Development",
+      image: "/images/engineer-office.png",
+      desc: "Product Display Website showcasing engineering products and solutions.",
+      link: "https://engineeroffice.com/",
+      icon: <Globe className="w-5 h-5" />
+    },
+    {
+      id: 19,
+      title: "TBHosters",
+      category: "Web Development",
+      image: "/images/tbhosters.png",
+      desc: "Hosting buying website with domain search and hosting plan selection.",
+      link: "https://tbhosters.com/",
+      icon: <Globe className="w-5 h-5" />
+    },
+    {
+      id: 20,
+      title: "HeartStrings",
+      category: "WordPress",
+      image: "/images/portfolio1.jpg",
+      desc: "Custom Ecommerce Website for custom products with personalized gift options.",
+      link: "#",
       icon: <Globe className="w-5 h-5" />
     }
   ];
@@ -56,7 +209,7 @@ export default function Projects() {
           <motion.h1 
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
-            className="projects-heading text-7xl md:text-[12vw] font-display font-black leading-none uppercase tracking-tighter"
+            className="projects-heading text-7xl md:text-[12vw] font-display font-black text-brand-black leading-none uppercase tracking-tighter"
           >
             PROJECTS<span className="text-brand-blue">.</span>
           </motion.h1>
