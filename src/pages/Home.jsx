@@ -143,24 +143,33 @@ export default function Home() {
                   <h5 className="text-brand-blue font-bold text-lg mb-1">Full Stack Developer</h5>
                   <p className="font-bold text-sm mb-2">DevelopersHub.co <span className="text-gray-400 font-normal">(Dec 2025 – Jan 2026)</span></p>
                   <ul className="text-xs text-gray-500 space-y-2 list-disc pl-4">
-                    <li>Completed virtual internship in Full Stack Development</li>
+                    <li>Completed a virtual internship program in Full Stack Development</li>
                     <li>Hands-on experience with frontend and backend technologies</li>
+                    <li>Worked on building and integrating full-stack web applications</li>
                   </ul>
                 </div>
                 <div className="group">
                   <h5 className="text-brand-blue font-bold text-lg mb-1">WordPress Developer</h5>
                   <p className="font-bold text-sm mb-2">DevSphere <span className="text-gray-400 font-normal">(Feb 2025 – Nov 2025)</span></p>
                   <ul className="text-xs text-gray-500 space-y-2 list-disc pl-4">
-                    <li>Develop and maintain responsive user interfaces</li>
-                    <li>Engineered site architecture for peak performance</li>
+                    <li>Develop and maintain responsive user interfaces using HTML, CSS, and JavaScript</li>
+                    <li>Engineered site architecture for peak performance, increasing user engagement</li>
                   </ul>
                 </div>
                 <div className="group">
                   <h5 className="text-brand-blue font-bold text-lg mb-1">Flutter Developer (Intern)</h5>
                   <p className="font-bold text-sm mb-2">Aniqa Tech Solutions <span className="text-gray-400 font-normal">(Feb 2025 – Apr 2025)</span></p>
                   <ul className="text-xs text-gray-500 space-y-2 list-disc pl-4">
-                    <li>Developed scalable mobile apps using Firebase</li>
-                    <li>Reduced crash rates through rigorous debugging</li>
+                    <li>Developed scalable mobile apps using Firebase for real-time data management</li>
+                    <li>Reduced crash rates and improved application stability</li>
+                  </ul>
+                </div>
+                <div className="group">
+                  <h5 className="text-brand-blue font-bold text-lg mb-1">ERP Support Specialist</h5>
+                  <p className="font-bold text-sm mb-2">Seamnia (PVT) Ltd. <span className="text-gray-400 font-normal">(Oct 2024 – Feb 2025)</span></p>
+                  <ul className="text-xs text-gray-500 space-y-2 list-disc pl-4">
+                    <li>Managed the "eBizPro" ERP system, ensuring 24/7 operational efficiency</li>
+                    <li>Diagnosed software bottlenecks to enhance system-wide efficiency</li>
                   </ul>
                 </div>
               </div>
