@@ -192,9 +192,9 @@ export default function Projects() {
       id: 20,
       title: "HeartStrings",
       category: "WordPress",
-      image: "/images/portfolio1.jpg",
+      image: "/images/heartstrings.png",
       desc: "Custom Ecommerce Website for custom products with personalized gift options.",
-      link: "#",
+      link: "https://heartstrings.pk/",
       icon: <Globe className="w-5 h-5" />
     }
   ];
