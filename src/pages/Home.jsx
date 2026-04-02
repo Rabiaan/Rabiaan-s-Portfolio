@@ -346,10 +346,10 @@ export default function Home() {
                 <div>
                   <p className="text-[10px] text-gray-500 uppercase tracking-widest mb-2">Color Palette</p>
                   <div className="flex gap-2">
-                    <div className="w-8 h-8 rounded-lg bg-blue-600" title="#2563eb"></div>
-                    <div className="w-8 h-8 rounded-lg bg-green-600" title="#16a34a"></div>
-                    <div className="w-8 h-8 rounded-lg bg-yellow-500" title="#eab308"></div>
-                    <div className="w-8 h-8 rounded-lg bg-gray-900" title="#1a1a1a"></div>
+                    <div className="w-8 h-8 rounded-lg bg-[#fd630d]" title="#fd630d"></div>
+                    <div className="w-8 h-8 rounded-lg bg-[#fd630d]" title="#fd630d"></div>
+                    <div className="w-8 h-8 rounded-lg bg-[#0a0a0a]" title="#0a0a0a"></div>
+                    <div className="w-8 h-8 rounded-lg bg-[#262626]" title="#262626"></div>
                   </div>
                 </div>
                 {/* Typography */}
