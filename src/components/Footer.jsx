@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Mail, MapPin, Instagram, Linkedin, Twitter } from "lucide-react";
+import { Mail, MapPin, Linkedin, Github } from "lucide-react";
 
 export default function Footer() {
   return (
@@ -14,14 +14,11 @@ export default function Footer() {
           <a href="mailto:syedrabiaan@gmail.com" className="hover:text-brand-blue transition-colors">
             <Mail className="w-6 h-6" />
           </a>
-          <a href="#" className="hover:text-brand-blue transition-colors">
-            <Instagram className="w-6 h-6" />
-          </a>
-          <a href="#" className="hover:text-brand-blue transition-colors">
+          <a href="https://www.linkedin.com/in/syed-rabiaan-zafar-818050247/" target="_blank" rel="noopener noreferrer" className="hover:text-brand-blue transition-colors">
             <Linkedin className="w-6 h-6" />
           </a>
-          <a href="#" className="hover:text-brand-blue transition-colors">
-            <Twitter className="w-6 h-6" />
+          <a href="https://github.com/Rabiaan" target="_blank" rel="noopener noreferrer" className="hover:text-brand-blue transition-colors">
+            <Github className="w-6 h-6" />
           </a>
         </div>
 
