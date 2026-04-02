@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "motion/react";
 import { ExternalLink, Globe, Code, ShoppingCart } from "lucide-react";
+import './Projects.css';
 
 export default function Projects() {
   const [filter, setFilter] = useState("All");
@@ -55,7 +56,7 @@ export default function Projects() {
           <motion.h1 
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
-            className="text-7xl md:text-[12vw] font-display font-black text-brand-black leading-none uppercase tracking-tighter"
+            className="projects-heading text-7xl md:text-[12vw] font-display font-black leading-none uppercase tracking-tighter"
           >
             PROJECTS<span className="text-brand-blue">.</span>
           </motion.h1>
