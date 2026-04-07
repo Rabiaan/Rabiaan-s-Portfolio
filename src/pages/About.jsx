@@ -165,6 +165,26 @@ export default function About() {
             >
               <div className="flex flex-col md:flex-row md:justify-between md:items-center mb-4">
                 <div>
+                  <h4 className="text-2xl font-display font-black text-brand-black uppercase">Working Freelance</h4>
+                  <p className="text-brand-blue font-bold">Self-Employed</p>
+                </div>
+                <span className="text-sm text-gray-500 font-bold uppercase tracking-widest">Jan 2024 – Continue</span>
+              </div>
+              <ul className="text-gray-600 space-y-2 list-disc pl-4">
+                <li>Providing web development services to clients worldwide</li>
+                <li>Building custom WordPress themes and React applications</li>
+                <li>Delivering responsive, performance-optimized websites</li>
+              </ul>
+            </motion.div>
+
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              className="bg-gray-50 p-10 rounded-[3rem] hover:shadow-xl transition-all duration-500"
+            >
+              <div className="flex flex-col md:flex-row md:justify-between md:items-center mb-4">
+                <div>
                   <h4 className="text-2xl font-display font-black text-brand-black uppercase">Frontend Developer</h4>
                   <p className="text-brand-blue font-bold">IDTECH PAKISTAN</p>
                 </div>
@@ -185,15 +205,14 @@ export default function About() {
             >
               <div className="flex flex-col md:flex-row md:justify-between md:items-center mb-4">
                 <div>
-                  <h4 className="text-2xl font-display font-black text-brand-black uppercase">Full Stack Developer</h4>
+                  <h4 className="text-2xl font-display font-black text-brand-black uppercase">Full Stack Developer (Intern)</h4>
                   <p className="text-brand-blue font-bold">DevelopersHub.co</p>
                 </div>
                 <span className="text-sm text-gray-500 font-bold uppercase tracking-widest">Dec 2025 – Jan 2026</span>
               </div>
               <ul className="text-gray-600 space-y-2 list-disc pl-4">
-                <li>Completed a virtual internship program in Full Stack Development</li>
-                <li>Gained hands-on experience with frontend and backend technologies</li>
-                <li>Worked on building and integrating full-stack web applications</li>
+                <li>Completed a virtual internship program in Full Stack Development, gaining hands-on experience with frontend and backend technologies</li>
+                <li>Worked on building and integrating full-stack web applications, including database management, APIs, and deployment workflows</li>
               </ul>
             </motion.div>
 
@@ -213,8 +232,7 @@ export default function About() {
               </div>
               <ul className="text-gray-600 space-y-2 list-disc pl-4">
                 <li>Develop and maintain responsive user interfaces using HTML, CSS, and JavaScript</li>
-                <li>Engineered site architecture for peak performance</li>
-                <li>Significantly increasing user engagement and system stability</li>
+                <li>Engineered site architecture for peak performance, significantly increasing user engagement and system stability</li>
               </ul>
             </motion.div>
 
@@ -227,14 +245,34 @@ export default function About() {
             >
               <div className="flex flex-col md:flex-row md:justify-between md:items-center mb-4">
                 <div>
-                  <h4 className="text-2xl font-display font-black text-brand-black uppercase">Flutter Developer (Intern)</h4>
+                  <h4 className="text-2xl font-display font-black text-brand-black uppercase">Flutter Developer (Remote Intern)</h4>
                   <p className="text-brand-blue font-bold">Aniqa Tech Solutions</p>
                 </div>
                 <span className="text-sm text-gray-500 font-bold uppercase tracking-widest">Feb 2025 – Apr 2025</span>
               </div>
               <ul className="text-gray-600 space-y-2 list-disc pl-4">
                 <li>Developed scalable mobile apps using Firebase for real-time data management</li>
-                <li>Reduced crash rates and improved application stability through rigorous debugging</li>
+                <li>Reduced crash rates and improved application stability through rigorous debugging and best-practice coding</li>
+              </ul>
+            </motion.div>
+
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ delay: 0.4 }}
+              className="bg-gray-50 p-10 rounded-[3rem] hover:shadow-xl transition-all duration-500"
+            >
+              <div className="flex flex-col md:flex-row md:justify-between md:items-center mb-4">
+                <div>
+                  <h4 className="text-2xl font-display font-black text-brand-black uppercase">ERP Support Specialist (Intern)</h4>
+                  <p className="text-brand-blue font-bold">Seamnia (PVT) Ltd.</p>
+                </div>
+                <span className="text-sm text-gray-500 font-bold uppercase tracking-widest">Oct 2024 – Jan 2025</span>
+              </div>
+              <ul className="text-gray-600 space-y-2 list-disc pl-4">
+                <li>Managed the "eBizPro" ERP system, ensuring 24/7 operational efficiency and seamless service</li>
+                <li>Diagnosed software bottlenecks to enhance system-wide efficiency and user satisfaction</li>
               </ul>
             </motion.div>
           </div>

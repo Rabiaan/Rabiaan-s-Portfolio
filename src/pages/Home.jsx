@@ -132,6 +132,15 @@ export default function Home() {
               </h4>
               <div className="space-y-8">
                 <div className="group">
+                  <h5 className="text-brand-blue font-bold text-lg mb-1">Working Freelance</h5>
+                  <p className="font-bold text-sm mb-2">Self-Employed <span className="text-gray-400 font-normal">(Jan 2024 – Continue)</span></p>
+                  <ul className="text-xs text-gray-500 space-y-2 list-disc pl-4">
+                    <li>Providing web development services to clients worldwide</li>
+                    <li>Building custom WordPress themes and React applications</li>
+                    <li>Delivering responsive, performance-optimized websites</li>
+                  </ul>
+                </div>
+                <div className="group">
                   <h5 className="text-brand-blue font-bold text-lg mb-1">Frontend Developer</h5>
                   <p className="font-bold text-sm mb-2">IDTECH PAKISTAN <span className="text-gray-400 font-normal">(Feb 2026 – Continue)</span></p>
                   <ul className="text-xs text-gray-500 space-y-2 list-disc pl-4">
@@ -140,11 +149,11 @@ export default function Home() {
                   </ul>
                 </div>
                 <div className="group">
-                  <h5 className="text-brand-blue font-bold text-lg mb-1">Full Stack Developer</h5>
+                  <h5 className="text-brand-blue font-bold text-lg mb-1">Full Stack Developer (Intern)</h5>
                   <p className="font-bold text-sm mb-2">DevelopersHub.co <span className="text-gray-400 font-normal">(Dec 2025 – Jan 2026)</span></p>
                   <ul className="text-xs text-gray-500 space-y-2 list-disc pl-4">
                     <li>Completed a virtual internship program in Full Stack Development</li>
-                    <li>Hands-on experience with frontend and backend technologies</li>
+                    <li>Gained hands-on experience with frontend and backend technologies</li>
                     <li>Worked on building and integrating full-stack web applications</li>
                   </ul>
                 </div>
@@ -157,7 +166,7 @@ export default function Home() {
                   </ul>
                 </div>
                 <div className="group">
-                  <h5 className="text-brand-blue font-bold text-lg mb-1">Flutter Developer (Intern)</h5>
+                  <h5 className="text-brand-blue font-bold text-lg mb-1">Flutter Developer (Remote Intern)</h5>
                   <p className="font-bold text-sm mb-2">Aniqa Tech Solutions <span className="text-gray-400 font-normal">(Feb 2025 – Apr 2025)</span></p>
                   <ul className="text-xs text-gray-500 space-y-2 list-disc pl-4">
                     <li>Developed scalable mobile apps using Firebase for real-time data management</li>
@@ -165,8 +174,8 @@ export default function Home() {
                   </ul>
                 </div>
                 <div className="group">
-                  <h5 className="text-brand-blue font-bold text-lg mb-1">ERP Support Specialist</h5>
-                  <p className="font-bold text-sm mb-2">Seamnia (PVT) Ltd. <span className="text-gray-400 font-normal">(Oct 2024 – Feb 2025)</span></p>
+                  <h5 className="text-brand-blue font-bold text-lg mb-1">ERP Support Specialist (Intern)</h5>
+                  <p className="font-bold text-sm mb-2">Seamnia (PVT) Ltd. <span className="text-gray-400 font-normal">(Oct 2024 – Jan 2025)</span></p>
                   <ul className="text-xs text-gray-500 space-y-2 list-disc pl-4">
                     <li>Managed the "eBizPro" ERP system, ensuring 24/7 operational efficiency</li>
                     <li>Diagnosed software bottlenecks to enhance system-wide efficiency</li>
