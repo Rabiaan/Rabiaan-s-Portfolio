@@ -167,7 +167,7 @@ export default function Projects() {
       category: "Web Development",
       image: "/images/synthesis.png",
       desc: "Waterproofing and Construction Company website with service showcase and project portfolio.",
-      link: "https://synthesiseng.com/",
+      link: "https://syneng.pk",
       icon: <Globe className="w-5 h-5" />
     },
     {
@@ -176,7 +176,7 @@ export default function Projects() {
       category: "Web Development",
       image: "/images/engineer-office.png",
       desc: "Product Display Website showcasing engineering products and solutions.",
-      link: "https://engineeroffice.com/",
+      link: "https://engineersoffice.pk/",
       icon: <Globe className="w-5 h-5" />
     },
     {
@@ -185,7 +185,7 @@ export default function Projects() {
       category: "Web Development",
       image: "/images/tbhosters.png",
       desc: "Hosting buying website with domain search and hosting plan selection.",
-      link: "https://tbhosters.com/",
+      link: "https://tbhosters.pk/",
       icon: <Globe className="w-5 h-5" />
     },
     {
