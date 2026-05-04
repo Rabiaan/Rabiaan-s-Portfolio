@@ -32,7 +32,7 @@ export default function Projects() {
       category: "React",
       image: "/images/frame-gen.png",
       desc: "React Business Portfolio for marketing agency providing web development, marketing, animation, and graphics services.",
-      link: "https://frame-gen.vercel.app/",
+      link: "https://grame-gen.com",
       icon: <Code className="w-5 h-5" />
     },
     {
