@@ -113,7 +113,7 @@ export default function Projects() {
       category: "HTML/CSS",
       image: "/images/asiaglory.png",
       desc: "Cold Storage & Warehouse Service website with service showcase and contact forms.",
-      link: "https://asiagloryco.vercel.app/",
+      link: "https://asiagloryco.com/",
       icon: <Globe className="w-5 h-5" />
     },
     {
