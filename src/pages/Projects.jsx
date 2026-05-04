@@ -46,6 +46,15 @@ export default function Projects() {
     },
     {
       id: 3,
+      title: "Streetora",
+      category: "WordPress",
+      image: "/images/streetora.png",
+      desc: "E-commerce platform for street fashion with modern design and shopping cart functionality.",
+      link: "https://streetora.store/",
+      icon: <Globe className="w-5 h-5" />
+    },
+    {
+      id: 4,
       title: "React E-commerce Platform",
       category: "React",
       image: "/images/ecommerce-store.png",
@@ -54,7 +63,7 @@ export default function Projects() {
       icon: <Code className="w-5 h-5" />
     },
     {
-      id: 4,
+      id: 8,
       title: "Code Hills",
       category: "React",
       image: "/images/codehills.png",
@@ -72,7 +81,7 @@ export default function Projects() {
       icon: <Globe className="w-5 h-5" />
     },
     {
-      id: 8,
+      id: 9,
       title: "TheNutAffair",
       category: "WordPress",
       image: "/images/nutaffair.png",
@@ -81,7 +90,7 @@ export default function Projects() {
       icon: <Globe className="w-5 h-5" />
     },
     {
-      id: 7,
+      id: 10,
       title: "Delicacy Bakers",
       category: "WordPress",
       image: "/images/delicacy.png",
@@ -90,7 +99,7 @@ export default function Projects() {
       icon: <Globe className="w-5 h-5" />
     },
     {
-      id: 8,
+      id: 11,
       title: "Brand Architect",
       category: "WordPress",
       image: "/images/brandarc.png",
@@ -99,7 +108,7 @@ export default function Projects() {
       icon: <Globe className="w-5 h-5" />
     },
     {
-      id: 9,
+      id: 12,
       title: "JawShee Candles",
       category: "WordPress",
       image: "/images/jawshee.png",
@@ -108,7 +117,7 @@ export default function Projects() {
       icon: <Globe className="w-5 h-5" />
     },
     {
-      id: 10,
+      id: 13,
       title: "Asia Glory Co",
       category: "HTML/CSS",
       image: "/images/asiaglory.png",
@@ -117,7 +126,7 @@ export default function Projects() {
       icon: <Globe className="w-5 h-5" />
     },
     {
-      id: 11,
+      id: 14,
       title: "Safia Sattar Sons",
       category: "HTML/CSS",
       image: "/images/safiasattarsons.png",
@@ -126,7 +135,7 @@ export default function Projects() {
       icon: <Globe className="w-5 h-5" />
     },
     {
-      id: 12,
+      id: 15,
       title: "Raad Al Arabia",
       category: "HTML/CSS",
       image: "/images/raadalarabia.png",
@@ -135,7 +144,7 @@ export default function Projects() {
       icon: <Globe className="w-5 h-5" />
     },
     {
-      id: 13,
+      id: 16,
       title: "Safi Al Dhabi Trading EST",
       category: "HTML/CSS",
       image: "/images/safiaaldhabi.png",
@@ -144,7 +153,7 @@ export default function Projects() {
       icon: <Globe className="w-5 h-5" />
     },
     {
-      id: 14,
+      id: 16,
       title: "SQI",
       category: "HTML/CSS",
       image: "/images/sqi.png",
@@ -153,7 +162,7 @@ export default function Projects() {
       icon: <Globe className="w-5 h-5" />
     },
     {
-      id: 15,
+      id: 17,
       title: "IRS",
       category: "HTML/CSS",
       image: "/images/irs.png",
@@ -162,7 +171,7 @@ export default function Projects() {
       icon: <ShoppingCart className="w-5 h-5" />
     },
     {
-      id: 16,
+      id: 18,
       title: "IDTECH Pakistan",
       category: "Web Development",
       image: "/images/idtechpakistan.png",
@@ -171,7 +180,7 @@ export default function Projects() {
       icon: <Globe className="w-5 h-5" />
     },
     {
-      id: 17,
+      id: 19,
       title: "Synthesis Engineering",
       category: "Web Development",
       image: "/images/synthesis.png",
@@ -180,7 +189,7 @@ export default function Projects() {
       icon: <Globe className="w-5 h-5" />
     },
     {
-      id: 18,
+      id: 20,
       title: "Engineer's Office",
       category: "Web Development",
       image: "/images/engineer-office.png",
@@ -189,7 +198,7 @@ export default function Projects() {
       icon: <Globe className="w-5 h-5" />
     },
     {
-      id: 19,
+      id: 21,
       title: "TBHosters",
       category: "Web Development",
       image: "/images/tbhosters.png",
@@ -198,7 +207,7 @@ export default function Projects() {
       icon: <Globe className="w-5 h-5" />
     },
     {
-      id: 20,
+      id: 22,
       title: "HeartStrings",
       category: "WordPress",
       image: "/images/heartstrings.png",
