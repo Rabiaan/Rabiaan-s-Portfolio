@@ -153,7 +153,7 @@ export default function Projects() {
       icon: <Globe className="w-5 h-5" />
     },
     {
-      id: 16,
+      id: 23,
       title: "SQI",
       category: "HTML/CSS",
       image: "/images/sqi.png",
@@ -173,7 +173,7 @@ export default function Projects() {
     {
       id: 18,
       title: "IDTECH Pakistan",
-      category: "Web Development",
+      category: "HTML/CSS",
       image: "/images/idtechpakistan.png",
       desc: "Marketing and Web Development Agency website with service showcase and portfolio.",
       link: "https://idtechpakistan.com/",
@@ -182,7 +182,7 @@ export default function Projects() {
     {
       id: 19,
       title: "Synthesis Engineering",
-      category: "Web Development",
+      category: "HTML/CSS",
       image: "/images/synthesis.png",
       desc: "Waterproofing and Construction Company website with service showcase and project portfolio.",
       link: "https://syneng.pk",
@@ -191,7 +191,7 @@ export default function Projects() {
     {
       id: 20,
       title: "Engineer's Office",
-      category: "Web Development",
+      category: "HTML/CSS",
       image: "/images/engineer-office.png",
       desc: "Product Display Website showcasing engineering products and solutions.",
       link: "https://engineersoffice.pk/",
@@ -200,7 +200,7 @@ export default function Projects() {
     {
       id: 21,
       title: "TBHosters",
-      category: "Web Development",
+      category: "HTML/CSS",
       image: "/images/tbhosters.png",
       desc: "Hosting buying website with domain search and hosting plan selection.",
       link: "https://tbhosters.pk/",
