@@ -19,6 +19,15 @@ export default function Projects() {
     },
     {
       id: 5,
+      title: "Arcvault",
+      category: "React",
+      image: "/images/arcvault.png",
+      desc: "React construction website with 3D scroll effects showcasing architectural projects and building services.",
+      link: "https://arcvault-mu.vercel.app/",
+      icon: <Code className="w-5 h-5" />
+    },
+    {
+      id: 6,
       title: "FrameGen",
       category: "React",
       image: "/images/frame-gen.png",
@@ -54,7 +63,7 @@ export default function Projects() {
       icon: <Code className="w-5 h-5" />
     },
     {
-      id: 5,
+      id: 7,
       title: "SamarTex",
       category: "WordPress",
       image: "/images/samartex.png",
@@ -63,7 +72,7 @@ export default function Projects() {
       icon: <Globe className="w-5 h-5" />
     },
     {
-      id: 6,
+      id: 8,
       title: "TheNutAffair",
       category: "WordPress",
       image: "/images/nutaffair.png",
