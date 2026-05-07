@@ -23,7 +23,7 @@ export default function Projects() {
       category: "React",
       image: "/images/arcvault.png",
       desc: "React construction website with 3D scroll effects showcasing architectural projects and building services.",
-      link: "https://arcvault-mu.vercel.app/",
+      link: "https://arcvault-livid.vercel.app/",
       icon: <Code className="w-5 h-5" />
     },
     {
