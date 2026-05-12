@@ -77,7 +77,7 @@ export default function Projects() {
       category: "WordPress",
       image: "/images/samartex.png",
       desc: "WooCommerce store with custom theme and seamless checkout flows.",
-      link: "https://samartex.store/",
+      link: "https://samartex.store/home/",
       icon: <Globe className="w-5 h-5" />
     },
     {
