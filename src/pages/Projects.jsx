@@ -32,7 +32,7 @@ export default function Projects() {
       category: "React",
       image: "/images/frame-gen.png",
       desc: "React Business Portfolio for marketing agency providing web development, marketing, animation, and graphics services.",
-      link: "https://grame-gen.com",
+      link: "https://frame-gen.com",
       icon: <Code className="w-5 h-5" />
     },
     {
