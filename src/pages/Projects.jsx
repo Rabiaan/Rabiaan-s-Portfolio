@@ -50,7 +50,7 @@ export default function Projects() {
       category: "WordPress",
       image: "/images/streetora.png",
       desc: "E-commerce platform for street fashion with modern design and shopping cart functionality.",
-      link: "https://streetora.store/",
+      link: "https://dev-streetora-store.pantheonsite.io/",
       icon: <Globe className="w-5 h-5" />
     },
     {
