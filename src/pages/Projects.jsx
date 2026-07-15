@@ -214,6 +214,15 @@ export default function Projects() {
       desc: "Custom Ecommerce Website for custom products with personalized gift options.",
       link: "https://heartstrings.pk/",
       icon: <Globe className="w-5 h-5" />
+    },
+    {
+      id: 24,
+      title: "Biotech Sciences",
+      category: "Fullstack",
+      image: "/images/biotech-sciences.png",
+      desc: "Full Stack E-commerce Platform for biotech skincare brand with product catalog, admin dashboard, Supabase auth, and role-based access.",
+      link: "https://biotech-sciences.vercel.app/",
+      icon: <Globe className="w-5 h-5" />
     }
   ];
 
