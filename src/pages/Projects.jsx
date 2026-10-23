@@ -75,7 +75,7 @@ export default function Projects() {
       id: 7,
       title: "SamarTex",
       category: "WordPress",
-      image: "/images/samartex.png",
+      image: "/images/samartex.webp",
       desc: "WooCommerce store with custom theme and seamless checkout flows.",
       link: "https://dev-samartex.pantheonsite.io/",
       icon: <Globe className="w-5 h-5" />
@@ -233,6 +233,7 @@ export default function Projects() {
       link: "https://md-watches-lac.vercel.app/",
       icon: <ShoppingCart className="w-5 h-5" />
     },
+  ];
 
   const filteredProjects = filter === "All" ? projects : projects.filter(p => p.category === filter);
 
