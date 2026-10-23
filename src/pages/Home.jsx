@@ -44,7 +44,7 @@ export default function Home() {
           style={{ x: imageX, y: imageY }}
         >
           <img 
-            src="/images/rabiaan.jpeg" 
+            src="/images/rabiaan.webp" 
             alt="Syed Rabiaan Zafar" 
             className="w-full max-w-md rounded-[10rem]"
             referrerPolicy="no-referrer"
@@ -348,7 +348,7 @@ export default function Home() {
               {/* Main Image */}
               <div className="lg:col-span-2 relative">
                 <img 
-                  src="/images/fitness-pro.png" 
+                  src="/images/fitness-pro.webp" 
                   alt="Fitness Pro" 
                   className="w-full h-64 lg:h-full object-cover rounded-[2rem] group-hover:scale-105 transition-transform duration-500"
                 />
@@ -395,7 +395,7 @@ export default function Home() {
           >
             <div className="space-y-6">
               <img 
-                src="/images/frame-gen.png" 
+                src="/images/frame-gen.webp" 
                 alt="FrameGen" 
                 className="w-full h-48 object-cover rounded-[2rem] group-hover:scale-105 transition-transform duration-500"
               />
@@ -437,7 +437,7 @@ export default function Home() {
           >
             <div className="space-y-6">
               <img 
-                src="/images/samartex.png" 
+                src="/images/samartex.webp" 
                 alt="SamarTex" 
                 className="w-full h-48 object-cover rounded-[2rem] group-hover:scale-105 transition-transform duration-500"
               />
@@ -464,7 +464,7 @@ export default function Home() {
                   <p className="text-gray-400 text-xs">Primary Fonts</p>
                 </div>
               </div>
-              <a href="https://samartex.store/" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 text-brand-blue hover:text-brand-black transition-colors text-sm font-bold">
+              <a href="https://dev-samartex.pantheonsite.io/" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 text-brand-blue hover:text-brand-black transition-colors text-sm font-bold">
                 View Project <span>→</span>
               </a>
             </div>
@@ -480,7 +480,7 @@ export default function Home() {
           >
             <div className="space-y-6">
               <img 
-                src="/images/asiaglory.png" 
+                src="/images/asiaglory.webp" 
                 alt="Asia Glory Co" 
                 className="w-full h-48 object-cover rounded-[2rem] group-hover:scale-105 transition-transform duration-500"
               />

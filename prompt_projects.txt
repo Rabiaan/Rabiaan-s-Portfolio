@@ -1,0 +1,5 @@
+﻿Add the following three projects to the Projects page of the Rabiaan portfolio website:
+1. The Chemical Factory - Title: The Chemical Factory, Category: HTML/CSS, Image: /images/the_chemical_factory.webp, Description: Waterproofing and Construction Company website with service showcase and project portfolio., Link: https://the-chemical-factory.vercel.app/, Icon: Globe
+2. Manifold - Title: Manifold, Category: HTML/CSS, Image: /images/manifold.webp, Description: A film production house, creative agency and AI production studio, bringing bold ideas to life through story and visual craft., Link: https://manifold-iota.vercel.app/, Icon: Globe
+3. MD Watches - Title: MD Watches, Category: HTML/CSS, Image: /images/md-watches.webp, Description: Store for watches., Link: https://md-watches-lac.vercel.app/, Icon: ShoppingCart
+Also update the existing Synthesis Engineering entry to The Chemical Factory with the above details. Ensure all images reference .webp format and match existing project card styling.

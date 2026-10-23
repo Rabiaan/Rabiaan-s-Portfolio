@@ -12,7 +12,7 @@ export default function Projects() {
       id: 1,
       title: "Fitness Pro",
       category: "TypeScript",
-      image: "/images/fitness-pro.png",
+      image: "/images/fitness-pro.webp",
       desc: "Full Stack Fitness Management App with workout tracking, user authentication, and progress monitoring.",
       link: "https://fitness-pro-production.up.railway.app/",
       icon: <Globe className="w-5 h-5" />
@@ -21,7 +21,7 @@ export default function Projects() {
       id: 5,
       title: "Arcvault",
       category: "React",
-      image: "/images/arcvault.png",
+      image: "/images/arcvault.webp",
       desc: "React construction website with 3D scroll effects showcasing architectural projects and building services.",
       link: "https://arcvault-livid.vercel.app/",
       icon: <Code className="w-5 h-5" />
@@ -30,7 +30,7 @@ export default function Projects() {
       id: 6,
       title: "FrameGen",
       category: "React",
-      image: "/images/frame-gen.png",
+      image: "/images/frame-gen.webp",
       desc: "React Business Portfolio for marketing agency providing web development, marketing, animation, and graphics services.",
       link: "https://frame-gen.com",
       icon: <Code className="w-5 h-5" />
@@ -39,7 +39,7 @@ export default function Projects() {
       id: 2,
       title: "Habibi Bites",
       category: "Fullstack",
-      image: "/images/habibi-bites.png",
+      image: "/images/habibi-bites.webp",
       desc: "Full Stack Restaurant Management system with online ordering, table reservation, and menu management.",
       link: "https://habibi-bites.vercel.app/",
       icon: <Globe className="w-5 h-5" />
@@ -48,7 +48,7 @@ export default function Projects() {
       id: 3,
       title: "Streetora",
       category: "WordPress",
-      image: "/images/streetora.png",
+      image: "/images/streetora.webp",
       desc: "E-commerce platform for street fashion with modern design and shopping cart functionality.",
       link: "https://dev-streetora-store.pantheonsite.io/",
       icon: <Globe className="w-5 h-5" />
@@ -57,7 +57,7 @@ export default function Projects() {
       id: 4,
       title: "React E-commerce Platform",
       category: "React",
-      image: "/images/ecommerce-store.png",
+      image: "/images/ecommerce-store.webp",
       desc: "Fullstack E-commerce Store with cart, checkout, and payment integration (In Progress).",
       link: "#",
       icon: <Code className="w-5 h-5" />
@@ -66,7 +66,7 @@ export default function Projects() {
       id: 8,
       title: "Code Hills",
       category: "React",
-      image: "/images/codehills.png",
+      image: "/images/codehills.webp",
       desc: "React Business Portfolio showcasing development services and projects.",
       link: "https://codehills.vercel.app/",
       icon: <Code className="w-5 h-5" />
@@ -77,14 +77,14 @@ export default function Projects() {
       category: "WordPress",
       image: "/images/samartex.png",
       desc: "WooCommerce store with custom theme and seamless checkout flows.",
-      link: "https://samartex.store/home/",
+      link: "https://dev-samartex.pantheonsite.io/",
       icon: <Globe className="w-5 h-5" />
     },
     {
       id: 9,
       title: "TheNutAffair",
       category: "WordPress",
-      image: "/images/nutaffair.png",
+      image: "/images/nutaffair.webp",
       desc: "E-commerce site for food products with online ordering system.",
       link: "https://nutaffair.ethostechsol.com/",
       icon: <Globe className="w-5 h-5" />
@@ -93,7 +93,7 @@ export default function Projects() {
       id: 10,
       title: "Delicacy Bakers",
       category: "WordPress",
-      image: "/images/delicacy.png",
+      image: "/images/delicacy.webp",
       desc: "E-commerce site for bakery products with custom styling.",
       link: "https://delicacy.ethostechsol.com/",
       icon: <Globe className="w-5 h-5" />
@@ -102,7 +102,7 @@ export default function Projects() {
       id: 11,
       title: "Brand Architect",
       category: "WordPress",
-      image: "/images/brandarc.png",
+      image: "/images/brandarc.webp",
       desc: "Brand and Digital Marketing Agency website with service showcase.",
       link: "https://brandarchitectsconsulting.com/",
       icon: <Globe className="w-5 h-5" />
@@ -111,7 +111,7 @@ export default function Projects() {
       id: 12,
       title: "JawShee Candles",
       category: "WordPress",
-      image: "/images/jawshee.png",
+      image: "/images/jawshee.webp",
       desc: "Ecommerce brand website for candles with product catalog.",
       link: "https://jaw.devsphere.digital/",
       icon: <Globe className="w-5 h-5" />
@@ -120,7 +120,7 @@ export default function Projects() {
       id: 13,
       title: "Asia Glory Co",
       category: "HTML/CSS",
-      image: "/images/asiaglory.png",
+      image: "/images/asiaglory.webp",
       desc: "Cold Storage & Warehouse Service website with service showcase and contact forms.",
       link: "https://asiagloryco.com/",
       icon: <Globe className="w-5 h-5" />
@@ -129,7 +129,7 @@ export default function Projects() {
       id: 14,
       title: "Safia Sattar Sons",
       category: "HTML/CSS",
-      image: "/images/safiasattarsons.png",
+      image: "/images/safiasattarsons.webp",
       desc: "Business website for trading company with product catalog and company information.",
       link: "https://safiasattarsons.vercel.app/",
       icon: <Globe className="w-5 h-5" />
@@ -138,7 +138,7 @@ export default function Projects() {
       id: 15,
       title: "Raad Al Arabia",
       category: "HTML/CSS",
-      image: "/images/raadalarabia.png",
+      image: "/images/raadalarabia.webp",
       desc: "Product portfolio website with product catalog and company information.",
       link: "https://raadalarabia.com/",
       icon: <Globe className="w-5 h-5" />
@@ -147,7 +147,7 @@ export default function Projects() {
       id: 16,
       title: "Safi Al Dhabi Trading EST",
       category: "HTML/CSS",
-      image: "/images/safiaaldhabi.png",
+      image: "/images/safiaaldhabi.webp",
       desc: "Business website for trading establishment with service showcase.",
       link: "https://safiaaldhabitrading.vercel.app/",
       icon: <Globe className="w-5 h-5" />
@@ -156,7 +156,7 @@ export default function Projects() {
       id: 23,
       title: "SQI",
       category: "HTML/CSS",
-      image: "/images/sqi.png",
+      image: "/images/sqi.webp",
       desc: "Portfolio website showcasing products and services.",
       link: "https://sqi-sage.vercel.app/",
       icon: <Globe className="w-5 h-5" />
@@ -165,7 +165,7 @@ export default function Projects() {
       id: 17,
       title: "IRS",
       category: "HTML/CSS",
-      image: "/images/irs.png",
+      image: "/images/irs.webp",
       desc: "E-commerce webstore with product listings and shopping functionality.",
       link: "#",
       icon: <ShoppingCart className="w-5 h-5" />
@@ -174,25 +174,25 @@ export default function Projects() {
       id: 18,
       title: "IDTECH Pakistan",
       category: "HTML/CSS",
-      image: "/images/idtechpakistan.png",
+      image: "/images/idtechpakistan.webp",
       desc: "Marketing and Web Development Agency website with service showcase and portfolio.",
       link: "https://idtechpakistan.com/",
       icon: <Globe className="w-5 h-5" />
     },
     {
       id: 19,
-      title: "Synthesis Engineering",
+      title: "The Chemical Factory",
       category: "HTML/CSS",
-      image: "/images/synthesis.png",
+      image: "/images/the_chemical_factory.webp",
       desc: "Waterproofing and Construction Company website with service showcase and project portfolio.",
-      link: "https://syneng.pk",
+      link: "https://the-chemical-factory.vercel.app/",
       icon: <Globe className="w-5 h-5" />
     },
     {
       id: 20,
       title: "Engineer's Office",
       category: "HTML/CSS",
-      image: "/images/engineer-office.png",
+      image: "/images/engineer-office.webp",
       desc: "Product Display Website showcasing engineering products and solutions.",
       link: "https://engineersoffice.pk/",
       icon: <Globe className="w-5 h-5" />
@@ -201,7 +201,7 @@ export default function Projects() {
       id: 21,
       title: "TBHosters",
       category: "HTML/CSS",
-      image: "/images/tbhosters.png",
+      image: "/images/tbhosters.webp",
       desc: "Hosting buying website with domain search and hosting plan selection.",
       link: "https://tbhosters.pk/",
       icon: <Globe className="w-5 h-5" />
@@ -210,21 +210,29 @@ export default function Projects() {
       id: 22,
       title: "HeartStrings",
       category: "WordPress",
-      image: "/images/heartstrings.png",
+      image: "/images/heartstrings.webp",
       desc: "Custom Ecommerce Website for custom products with personalized gift options.",
       link: "https://heartstrings.pk/",
       icon: <Globe className="w-5 h-5" />
     },
     {
-      id: 24,
-      title: "Biotech Sciences",
-      category: "Fullstack",
-      image: "/images/biotech-sciences.png",
-      desc: "Full Stack E-commerce Platform for biotech skincare brand with product catalog, admin dashboard, Supabase auth, and role-based access.",
-      link: "https://biotech-sciences.vercel.app/",
+      id: 25,
+      title: "Manifold",
+      category: "HTML/CSS",
+      image: "/images/manifold.webp",
+      desc: "A film production house, creative agency and AI production studio, bringing bold ideas to life through story and visual craft.",
+      link: "https://manifold-iota.vercel.app/",
       icon: <Globe className="w-5 h-5" />
-    }
-  ];
+    },
+    {
+      id: 26,
+      title: "MD Watches",
+      category: "HTML/CSS",
+      image: "/images/md-watches.webp",
+      desc: "Store for watches.",
+      link: "https://md-watches-lac.vercel.app/",
+      icon: <ShoppingCart className="w-5 h-5" />
+    },
 
   const filteredProjects = filter === "All" ? projects : projects.filter(p => p.category === filter);
 
